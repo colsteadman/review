@@ -46,9 +46,7 @@ nav a {
     background-image: url(images/pexels-dids-1382902.jpg);
     background-attachment: fixed;
 }
-.section3{
-    background-image: url(images/pexels-jess-bailey-designs-1097930.jpg);
-}
+
 .section4{
     background-image: url(images/pexels-mateusz-dach-450035.jpg);
     background-attachment: fixed;
@@ -111,6 +109,52 @@ nav a {
     left:60%;
     padding: 20px;
 }
+
+
+
+
+.section3{
+    background-image: url(images/pexels-jess-bailey-designs-1097930.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3 p{
+    margin:20px;
+    font-size: 22px;
+    color:#1f1f1f;
+}
+
+.section3 input{
+    height: 30px;
+    border-color: transparent;
+}
+
+.section3 input:focus {
+    outline: 2px solid #1f1f1f;
+}
+
+.section3 input::placeholder{
+    text-align: center;
+    font-style: italic;
+}
+
+.section3 h1{
+    text-align: center;
+}
+
+#button{
+    font-size: 18px;
+    padding:10px;
+    border-color: transparent;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+
 
 
 
