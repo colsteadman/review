@@ -3,34 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+ 
 nav {
     background-color: #1f1f1f;
     position: fixed;
     width: 100%;
     z-index: 5;
 }
-
+ 
 nav ul{
     width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    
+   
 }
-
+ 
 nav li{
     list-style-type: none;
     margin: 20px;
 }
-
+ 
 nav a {
     color: #f1f1f1;
     text-decoration: none;
     font-size: 20px;
 }
-
+ 
 .section1, .section2, .section3, .section4 {
     height: 100vh;
     width: 100%;
@@ -38,7 +38,7 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+ 
 .section1{
     background-image: url(images/pexels-toni-cuenca-585752.jpg);
 }
@@ -46,12 +46,8 @@ nav a {
     background-image: url(images/pexels-dids-1382902.jpg);
     background-attachment: fixed;
 }
-
-.section4{
-    background-image: url(images/pexels-mateusz-dach-450035.jpg);
-    background-attachment: fixed;
-}
-
+ 
+ 
 .header{
     color:white;
     position:relative;
@@ -61,13 +57,13 @@ nav a {
     background-color:#1f1f1fa9;
     width:30%;
     padding: 20px 0 20px 0;
-    font-size:24px; 
+    font-size:24px;
     border-style: solid;
     border-color: #f1f1f1;
     border-width: 2px;
     border-radius: 5px;
 }
-
+ 
 .intro{
     color: #f1f1f1;
     background-color:#1f1f1fa9;
@@ -83,21 +79,21 @@ nav a {
     border-radius: 5px;
     padding: 20px 0 20px 0;
 }
-
+ 
 .paragraph{
     font-size: 22px;
     width: 30%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+ 
 #p1{
-    color:;
+   
     position: relative;
     top:200px;
     left:50px;
     padding: 20px 0 20px 0;
 }
-
+ 
 #p2{
     background-color: #f1f1f1d8;
     border-style: solid;
@@ -109,10 +105,10 @@ nav a {
     left:60%;
     padding: 20px;
 }
-
-
-
-
+ 
+ 
+ 
+ 
 .section3{
     background-image: url(images/pexels-jess-bailey-designs-1097930.jpg);
     display: flex;
@@ -120,31 +116,31 @@ nav a {
     align-items: center;
     flex-direction: column;
 }
-
+ 
 .section3 p{
     margin:20px;
     font-size: 22px;
     color:#1f1f1f;
 }
-
+ 
 .section3 input{
     height: 30px;
     border-color: transparent;
 }
-
+ 
 .section3 input:focus {
     outline: 2px solid #1f1f1f;
 }
-
+ 
 .section3 input::placeholder{
     text-align: center;
     font-style: italic;
 }
-
+ 
 .section3 h1{
     text-align: center;
 }
-
+ 
 #button{
     font-size: 18px;
     padding:10px;
@@ -152,6 +148,115 @@ nav a {
     background-color: #1f1f1f;
     color: #f1f1f1;
     cursor: pointer;
+}
+ 
+ 
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+ 
+ 
+.section4{
+    background-image: url(images/pexels-mateusz-dach-450035.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+ 
+.section4 h1{
+    color:#f1f1f1;
+    position: relative;
+    top: -100px;
+    font-size: 30px;
+}
+ 
+#letter {
+    position: relative;
+    top: -50px;
+    width: 80px;
+    padding:20px;
+    font-size: 20px;
+    text-align: center;
+}
+ 
+#submit{
+    position:relative;
+    top: -30px;
+    border-color: transparent;
+    padding:10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+ 
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+ 
+}
+ 
+#word{
+    font-size: 35px;
+ 
+}
+ 
+#hint{
+    position: relative;
+    top: -70px;
+    font-size: 24px;
+    font-weight: 300;
+}
+ 
+.section4 h4{
+    font-size: 20px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+@media only screen and (max-width:700px){
+    .header{
+        width:80%;
+    }
+ 
+    #p1{
+        width: 80%;
+        background-color: #f1f1f1d8;
+        border-style: solid;
+        border-color: #1f1f1f;
+        border-width: 2px;
+        border-radius: 5px;
+        padding: 20px;
+    }
+ 
+    #p2{
+        width: 80%;
+        left: 50px;
+        top: 400px;
+    }
 }
 
 

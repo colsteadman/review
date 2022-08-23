@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTyPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
+   
+ 
     <nav>
         <ul>
             <li><a href="#section1">Section1</a></li>
@@ -18,7 +18,7 @@
             <li><a href="#section4">Section4</a></li>
         </ul>
     </nav>
-
+ 
     <div class="section1" id="section1">
         <div class="header">
             <h1>Welcome to <br>a nicer website</h1>
@@ -45,11 +45,24 @@
         </div>
         <h1 id="sentence">Sentence</h1>
     </div>
-    <div class="section4" id="section4"></div>
-
-
-
-
+    <div class="section4" id="section4">
+        <div class="part2">
+            <h1>Guess the word</h1>
+            <input type="text" id="letter">
+            <button onclick="enterletter()" id="submit">Click</button>
+ 
+            <h4>You have <span id="wrong"></span> chances left</h4>
+ 
+            <div class="grid">
+                <h1 id="word">essagerwa</h1>
+                <h4 id="hint">hint</h4>
+            </div>
+        </div>
+    </div>
+ 
+ 
+ 
+ 
     <script src="app.js"></script>
 </body>
 </html>
