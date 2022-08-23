@@ -85,7 +85,7 @@ if (correct.length == emptysplitword.length){
 } else if (counter > 1){
     counter -= 1
     document.getElementById("wrong").innerHTML = counter
-}else if (counter <= 1){
+}else if (counter == 1){
     alert("you lost!")
     
 }
