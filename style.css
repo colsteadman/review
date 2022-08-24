@@ -156,6 +156,7 @@ nav a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
  
  
@@ -215,10 +216,12 @@ nav a {
     top: -70px;
     font-size: 24px;
     font-weight: 300;
+    color:#f1f1f1;
 }
  
 .section4 h4{
     font-size: 20px;
+    color:#f1f1f1;
 }
  
  
