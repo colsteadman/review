@@ -92,8 +92,13 @@ if (correct.length == emptysplitword.length){
 
 }
 
+document.addEventListener('keyup', (e) =>{
 
+    if (e.key == "Enter") {
+        enterletter()
+    }
 
+})
 
 
 
